@@ -23,7 +23,7 @@ const MainHeader = () => {
 
   return (
     <>
-      <header className=" container mx-auto  flex items-center gap-4   ">
+      <header className=" container mx-auto  flex items-center gap-4   py-4 md:py-0">
         <button className="md:hidden" onClick={handleOpenMenu}>
           <MenuIcon />
         </button>
