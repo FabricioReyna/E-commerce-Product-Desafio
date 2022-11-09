@@ -12,7 +12,7 @@ export default () => {
         weather can offer.
       </p>
       <div className="flex justify-between items-center font-bold m-2">
-        <span className="text-3xl"> $125.00</span>
+        <span className="text-3xl pr-4"> $125.00</span>
         <span className="text-orange-400 bg-orange-100 mr-auto
 rounded-md py-1 px-2"> 50%</span>
         <span className="text-right">$250.00</span>
