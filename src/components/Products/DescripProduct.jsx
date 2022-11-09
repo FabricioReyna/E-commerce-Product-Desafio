@@ -11,14 +11,15 @@ export default () => {
         Featuring a durable rubber outer sole, they’ll withstand everything the
         weather can offer.
       </p>
-      <div>
-        <span> $125.00</span>
-        <span> 50%</span>
-        <span>$250.00</span>
+      <div className="flex justify-between items-center font-bold m-2">
+        <span className="text-3xl"> $125.00</span>
+        <span className="text-orange-400 bg-orange-100 mr-auto
+rounded-md py-1 px-2"> 50%</span>
+        <span className="text-right">$250.00</span>
       </div>
 
       <div>
-        <div>
+        <div className="flex justify-between">
           <button>-</button>
           <span>0</span>
           <button>+</button>
