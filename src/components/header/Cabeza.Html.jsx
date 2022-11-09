@@ -7,12 +7,12 @@ import { useState } from "react";
 import NavLinkHeader from "@/components/header/NavLinkHeader";
 const MainHeader = () => {
   const [navClass, setNavClass] = useState(
-    "hidden bg-white  font-bold md:static md:mr-auto md:flex md:flex-row md:gap-4 md:h-auto md:bg-transparent md:p-0"
+    "hidden bg-white  font-bold md:static md:mr-auto md:flex md:flex-row md:gap-4 md:h-auto md:bg-transparent md:p-0 "
   );
 
   const handleOpenMenu = () => {
     setNavClass(
-      "absolute top-0 left-0 flex h-full w-4/5 flex-col gap-y-[21px] bg-white p-8 font-bold md:static md:mr-auto md:flex md:flex-row md:gap-4 md:h-auto md:bg-transparent md:p-0"
+      "absolute top-0 left-0 flex h-full w-4/5 flex-col gap-y-[21px] bg-white p-8 font-bold md:static md:mr-auto md:flex md:flex-row md:gap-4 md:h-auto md:bg-transparent md:p-0 z-10"
     );
   };
   const handleCloseMenu = () => {
