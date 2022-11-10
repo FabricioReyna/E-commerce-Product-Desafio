@@ -29,9 +29,9 @@ export default () => {
     }
    
     return(
-        <section className="grid md:grid-cols-4 md:grid-rows-2 md:gap-4 md:contanier">
+        <section className="grid md:grid-cols-4 md:grid-rows-2 md:gap-4 md:mx-auto ">
             <div className="col-span-4 md:gap-8  relative">
-                <img src={PasadoImagenes[index]} alt="al" className="aspect-[16/13] w-full md:rounded"/>
+                <img src={PasadoImagenes[index]} alt="al" className="aspect-[16/13] w-full md:rounded "/>
                 <div className="absolute top-1/2 left-0 md:hidden p-2 -translate-y-1/2 w-full flex justify-between px-4">
                 <button className="bg-white rounded-full w-10 h-10 grid place-items-center" onClick={handlePrevMenu} ><PreviewIcon/></button>
                 <button className="bg-white rounded-full w-10 grid place-items-center h-10" onClick={handleNextMenu}><NextIcon/></button>
