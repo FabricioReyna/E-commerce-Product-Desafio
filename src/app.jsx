@@ -4,9 +4,12 @@ import MainMainer from "./components/Products/MainMainer";
 const App = () => {
   return (
     <>
-    
+    <body >
+      
+   
      <MainHeader/>
      <MainMainer/>
+     </body>
     </>
   );
 };
