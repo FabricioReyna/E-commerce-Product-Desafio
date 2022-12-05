@@ -38,7 +38,7 @@ export default ({
   return (
     <section {...props}>
       {IsOpenModal && (
-        <button onClick={CloseModal} className="md:col-span-4 md:text-right">
+        <button onClick={CloseModal} className="md:col-span-4 md:text-right md:text-white">
           X
         </button>
       )}

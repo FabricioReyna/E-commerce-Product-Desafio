@@ -1,6 +1,6 @@
 
 import MainHeader from "./components/header/Cabeza.Html";
-import MainMainer from "./components/Products/MainMainer";
+import IndexProducts from "./components/Products/IndexProducts";
 const App = () => {
   return (
     <>
@@ -8,7 +8,7 @@ const App = () => {
       
    
      <MainHeader/>
-     <MainMainer/>
+     <IndexProducts/>
      </body>
     </>
   );
